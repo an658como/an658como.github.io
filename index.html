@@ -1,59 +1,55 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Your Name - Portfolio</title>
-    <link rel="stylesheet" href="styles.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Personal Profile</title>
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <!-- Header Section -->
-    <header>
-        <img src="images/profile.jpg" alt="Your Photo" class="profile-photo">
-        <h1>Your Name</h1>
-        <p>Welcome to my personal portfolio</p>
-    </header>
+  <div class="container">
+    <!-- Profile Section -->
+    <div class="profile-section">
+      <img src="profile.jpg" alt="Profile Picture" class="profile-img">
+      <h1>Ali Naseri</h1>
+    </div>
 
-    <!-- Navigation Menu -->
-    <nav>
-        <ul>
-            <li><a href="#about">About</a></li>
-            <li><a href="#projects">Projects</a></li>
-            <li><a href="#cv">CV</a></li>
-            <li><a href="#contact">Contact</a></li>
-        </ul>
-    </nav>
+    <!-- Buttons for Navigation -->
+    <div class="buttons">
+      <button onclick="scrollToSection('about')">About</button>
+      <button onclick="scrollToSection('projects')">Projects</button>
+      <button onclick="scrollToSection('cv')">CV</button>
+      <button onclick="scrollToSection('contact')">Contact</button>
+    </div>
 
     <!-- About Section -->
-    <section id="about">
-        <h2>About Me</h2>
-        <p>Write a short bio about yourself here...</p>
+    <section id="about" class="section">
+      <h2>About Me</h2>
+      <p>Write a brief introduction about yourself here. Who you are, what you do, etc.</p>
     </section>
 
     <!-- Projects Section -->
-    <section id="projects">
-        <h2>Projects</h2>
-        <p>Include details or links to some of your key projects.</p>
+    <section id="projects" class="section">
+      <h2>Projects</h2>
+      <p>Highlight your projects or work experience here.</p>
     </section>
 
     <!-- CV Section -->
-    <section id="cv">
-        <h2>Curriculum Vitae</h2>
-        <p>You can download my CV <a href="assets/cv.pdf" download>here</a>.</p>
+    <section id="cv" class="section">
+      <h2>Curriculum Vitae</h2>
+      <a href="cv.pdf" download>
+        <button>Download CV</button>
+      </a>
     </section>
 
     <!-- Contact Section -->
-    <section id="contact">
-        <h2>Contact</h2>
-        <p>Email: <a href="mailto:your-email@example.com">your-email@example.com</a></p>
+    <section id="contact" class="section">
+      <h2>Contact</h2>
+      <p>Email: alinaseri.ut@gmail.com</p>
+      <p>Phone: +1(647)606-1930</p>
     </section>
+  </div>
 
-    <!-- Footer -->
-    <footer>
-        <p>&copy; 2024 Your Name. All rights reserved.</p>
-    </footer>
-
-    <script src="script.js"></script>
+  <script src="script.js"></script>
 </body>
 </html>
