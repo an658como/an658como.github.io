@@ -36,10 +36,12 @@ h1 {
   color: #007bff; /* Bright blue for the main heading */
 }
 
-/* Buttons */
 .buttons {
-  margin: 20px 0;
+  margin: 20px 0; /* Adjust margin as needed */
+  display: flex; /* Optional: Align buttons horizontally */
+  justify-content: center; /* Optional: Center buttons horizontally */
 }
+
 
 button {
   background-color: #0056b3; /* Darker blue background */
