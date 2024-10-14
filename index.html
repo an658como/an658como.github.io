@@ -3,15 +3,18 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Personal Profile</title>
+  <title>Ali Naseri's Website</title>
   <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
 </head>
 <body>
   <div class="container">
     <!-- Profile Section -->
     <div class="profile-section">
-      <img src="profile.jpg" alt="Profile Picture" class="profile-img">
+      <img src="images/profile.jpg" alt="Profile Picture" class="profile-img">
       <h1>Ali Naseri</h1>
+      <h3>Toronto, Ontario</h3>
+
     </div>
 
     <!-- Buttons for Navigation -->
@@ -25,19 +28,43 @@
     <!-- About Section -->
     <section id="about" class="section">
       <h2>About Me</h2>
-      <p>Write a brief introduction about yourself here. Who you are, what you do, etc.</p>
+      <p>I am a passionate learner dedicated to both my career and professional development as well as my personal interests. Whether it's mastering new challenges or refining existing abilities, I approach learning with enthusiasm, determination, and a strong sense of perseverance.
+
+        In addition to my dedication to learning, I'm also a professional musician. I specialize in playing the Tombak, a traditional Persian hand drum, and have performed in various concerts and gigs. Alongside my Tombak journey, I'm also learning to play the guitar and exploring my voice as a singer.
+        
+        Beyond music, I'm an active and sporty individual. I enjoy weightlifting and outdoor activities like hiking, and I'm also involved in semi-professional volleyball and rock climbing. Fitness is a key part of my lifestyle, keeping both my mind and body in top shape.</p>
+
+      <!-- Button to Show/Hide the table -->
+      <button id="toggle-table">See me in action</button>
+
+      <!-- Hidden 2x2 Table of Photos -->
+      <div id="photo-table" style="display: none;">
+        <table>
+          <tr>
+            <td><img src="images/tombak.JPG" alt="Photo 1"></td>
+            <td><img src="images/guitar.jpg" alt="Photo 2"></td>
+          </tr>
+          <tr>
+            <td><img src="images/rc.JPG" alt="Photo 3"></td>
+            <td><img src="images/vb.JPG" alt="Photo 4"></td>
+          </tr>
+        </table>
+      </div>
+      <p>In my spare time, I indulge in my love for photography. Capturing moments through the lens allows me to express my creativity in another medium. Feel free to check out my photo portfolio.</p>
+      <p><i class="fas fa-camera"></i> GuruShots: <a href="https://gurushots.com/alinaseri.ut" target="_blank">gurushots.com/alinaseri.ut</a></p>
+
     </section>
 
     <!-- Projects Section -->
     <section id="projects" class="section">
       <h2>Projects</h2>
-      <p>Highlight your projects or work experience here.</p>
+      <p>Coming Soon!</p>
     </section>
 
     <!-- CV Section -->
     <section id="cv" class="section">
       <h2>Curriculum Vitae</h2>
-      <a href="cv.pdf" download>
+      <a href="assets/cv.pdf" download>
         <button>Download CV</button>
       </a>
     </section>
@@ -45,8 +72,10 @@
     <!-- Contact Section -->
     <section id="contact" class="section">
       <h2>Contact</h2>
-      <p>Email: alinaseri.ut@gmail.com</p>
-      <p>Phone: +1(647)606-1930</p>
+      <p><i class="fas fa-envelope"></i> Email: alinaseri.ut@gmail.com  </p>
+      <p><i class="fas fa-phone"></i> Phone: +1 (437) 566-4237  </p>
+      <p><i class="fab fa-linkedin"></i> LinkedIn: <a href="https://www.linkedin.com/in/alinaseri/" target="_blank">linkedin.com/in/alinasseri</a></p>
+
     </section>
   </div>
 
