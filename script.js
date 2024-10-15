@@ -13,6 +13,6 @@ document.getElementById('toggle-table').addEventListener('click', function() {
       this.textContent = 'Hide Photos'; // Change button text to 'Hide Photos'
   } else {
       table.style.display = 'none';
-      this.textContent = 'See me in actions'; // Change button text back to 'Show Photos'
+      this.textContent = 'See me in action'; // Change button text back to 'Show Photos'
   }
 });
