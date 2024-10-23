@@ -11,7 +11,7 @@
   <div class="container">
     <!-- Profile Section -->
     <div class="profile-section">
-      <img src="images/profile.JPG" alt="Profile Picture" class="profile-img">
+      <img src="images/about/profile.JPG" alt="Profile Picture" class="profile-img">
       <h1>Ali Naseri</h1>
       <h3>Toronto, Ontario</h3>
 
@@ -40,12 +40,12 @@
       <div id="photo-table" style="display: none;">
         <table>
           <tr>
-            <td><img src="images/tombak.JPG" alt="Photo 1"></td>
-            <td><img src="images/guitar.jpg" alt="Photo 2"></td>
+            <td><img src="images/about/tombak.JPG" alt="Photo 1"></td>
+            <td><img src="images/about/guitar.jpg" alt="Photo 2"></td>
           </tr>
           <tr>
-            <td><img src="images/rc.JPG" alt="Photo 3"></td>
-            <td><img src="images/vb.JPG" alt="Photo 4"></td>
+            <td><img src="images/about/rc.JPG" alt="Photo 3"></td>
+            <td><img src="images/about/vb.JPG" alt="Photo 4"></td>
           </tr>
         </table>
       </div>
@@ -57,7 +57,27 @@
     <!-- Projects Section -->
     <section id="projects" class="section">
       <h2>Projects</h2>
-      <p>Coming Soon!</p>
+
+      <!-- Minimal Social Media Application Subsection -->
+      <div class="project-subsection">
+        <h3>Minimal Social Media Application</h3>
+        <img src="images/projects/PythonAPI.jpg" alt="Minimal Social Media Application" style="border-radius: 15px; width: 300px">
+        <p>This application was developed using a powerful stack of modern technologies including Python, FastAPI, PostgreSQL, SQLAlchemy, Alembic, and Docker. It represents a simple but scalable social media platform with essential functionalities for user and content management.</p>
+        <p>The app provides the following key endpoints:</p>
+        <ul class="narrow-list">
+          <li><b>Create a user:</b> Allows new users to register.</li>
+          <li><b>Login:</b> Authenticates users and provides them with secure tokens.</li>
+          <li><b>Create a post:</b> Enables logged-in users to create new posts.</li>
+          <li><b>Get all posts:</b> Enables logged-in users to see all public posts.</li>
+          <li><b>Get a post by ID:</b> Enables logged-in users to see a specific post.</li>
+          <li><b>Delete a post:</b> Allows users to remove their own posts.</li>
+          <li><b>Vote on a post:</b> Gives users the ability to upvote or downvote posts.</li>
+        </ul>
+        <p>Check out the source code for this project on GitHub: 
+          <a href="https://github.com/an658como/PythonAPI" target="_blank">Minimal Social Media App - GitHub</a>
+        </p>
+      </div>
+
     </section>
 
     <!-- CV Section -->

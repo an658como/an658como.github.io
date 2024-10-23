@@ -18,7 +18,7 @@ body {
 
 /* Profile Section */
 .profile-section {
-  margin-top: 650px; /* Increased margin for better spacing */
+  margin-top: 950px; /* Increased margin for better spacing */
   margin-bottom: 30px;
 }
 
@@ -63,6 +63,16 @@ button:hover {
 /* Section Styling */
 .section {
   margin-top: 50px;
+  width: 60%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.narrow-list {
+  width: 60%;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: left;
 }
 
 h2 {
@@ -84,6 +94,8 @@ p {
 #photo-table table {
   width: 100%;
   border-collapse: collapse;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 #photo-table td {
